@@ -29,25 +29,26 @@ This project demonstrates my practical understanding of Generative AI, prompt en
    git clone <repository url>
    cd dsa-chatbot
 
-2. Install required packagesBashpip install -r requirements.txt
+2. Install required packages
+    pip install -r requirements.txt
    
-3. Get your Gemini API Key from Google AI Studio
+4. Get your Gemini API Key from Google AI Studio
 
-4. Create environment file
-   cp .env.example .envOpen .env file and paste your actual Gemini API key.
+5. Create environment file
+    cp .env.example .envOpen .env file and paste your actual Gemini API key.
    
-5. Run CLI(main) Version
-   python main.py
+6. Run CLI(main) Version
+    python main.py
 
-6. Run the Application
-   streamlit run app.py
+7. Run the Application
+    streamlit run app.py
 
 
 What I Learned
 
- . Integrating LLM (Gemini) into Python applications
- . Prompt Engineering and System Instructions
- . Managing conversation history in chatbots
- . Building modular and scalable code structure
- . Creating both CLI and Web-based interfaces
- . Secure API key management using environment variables
+  . Integrating LLM (Gemini) into Python applications
+  . Prompt Engineering and System Instructions
+  . Managing conversation history in chatbots
+  . Building modular and scalable code structure
+  . Creating both CLI and Web-based interfaces
+  . Secure API key management using environment variables
